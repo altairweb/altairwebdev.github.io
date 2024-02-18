@@ -1,0 +1,98 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+/*estilo do corpo do site*/
+body{
+    background-image: url(../img/foto1.jpeg);
+    background-size: cover;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 20%;
+    text-align: center;
+}
+
+.menu{
+    flex: 80%;
+    text-align: right;
+    padding: 20px;
+}
+
+/*estilo do titulo*/
+.somos{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+
+.somos p{
+    font-size: 70%;
+}
+
+/*esstilo do meu conteudo*/
+.coluna{
+    display: inline-block;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.card{
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    margin: 2%;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: white;
+    color: black;
+    padding: 40px;
+
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+.texto-oculto{
+    display: none;
+
+}
+
+.rodape{
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+    height: 100px;
+}
+
+.rodape a{
+    padding: 14px 130px;
+    float: left;
+    display: block;
+}
